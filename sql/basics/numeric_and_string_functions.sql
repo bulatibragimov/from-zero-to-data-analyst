@@ -44,3 +44,9 @@ FLOOR(price - 100) AS price_100_rub_discount
 FROM 
 order_items
 ORDER BY product_id DESC, price DESC
+
+/*
+Key Takeaway:
+Scalar functions are used to transform data at the row level.
+They are essential for cleaning, formatting, and preparing data for analysis.
+*/
